@@ -1,0 +1,91 @@
+body {
+    margin-top: 100px;
+    padding: 0;
+    font-family: 'Roboto', serif;
+    background-color: rgb(255, 255, 223);
+}
+
+#nav {
+
+    position: fixed; /* Locks the navbar at the top of the page */
+    top: 0;          /* Sets the navbar at the top */
+    width: 100%;     /* Makes the navbar full-width */
+    z-index: 1000;   
+    left: 0; 
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(240, 173, 48);
+    color: white;
+    padding: 10px 60px 10px 10px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.logo a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav > li {
+    margin-left: 20px;
+}
+
+.nav > li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px; /* Reduce font size if needed */
+    padding: 5px 10px; /* Reduce padding for more space */
+    white-space: nowrap; /* Prevents text from wrapping */
+}
+
+.nav > li > a:hover {
+    font-weight: bold;
+}
+
+.aboutus {
+    width: 70%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: 20px auto;
+
+}
+
+.aboutus2 {
+    text-align: center;
+    margin: 20px auto;
+}
+
+#motto {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.logo img {
+    width: 50px; /* Set the width of the logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Space between logo and text */
+}
